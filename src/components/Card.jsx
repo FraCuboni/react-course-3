@@ -7,8 +7,12 @@ import './Card.css';
 // controintuitivo ma molto utilizzato
 function Card({ title, description, imgURL, isVisited }) {
 
-
     return (
+        // funzione onclick con alert
+        // se l'onclick è in linea 
+        // <div className="card" onClick={() => alert('ciao')}>
+
+        // si può usare anche una funzione personalizzata handleClick
         <div className="card">
             <div className="image-box">
                 <img className="image" src={imgURL} alt="" />
@@ -25,7 +29,7 @@ function Card({ title, description, imgURL, isVisited }) {
                     !isVisited && <span>Non Visitata</span>
                 }
             </div>
-        </div>
+        </div >
 
     )
 

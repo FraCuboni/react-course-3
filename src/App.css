@@ -5,9 +5,23 @@
   text-align: center;
 }
 
+* {
+  transition: 200ms;
+}
+
 .container {
   display: flex;
   justify-content: start;
   flex-wrap: wrap;
   gap: 20px;
+}
+
+
+
+.card:hover {
+  scale: 1.03;
+}
+
+.title {
+  width: 100%;
 }
