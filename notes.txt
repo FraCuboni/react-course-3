@@ -1,0 +1,4 @@
+il rendering condizionale è molto importante in quanto si possono aggiungere funzionalità anche legate a qualche tipo di 
+potenza diversa di alcuni account ad esempio, se admin=true posso visualizzare un pulsante per la modifica ad esempio
+
+rendering di liste per stampa liste dinamiche
